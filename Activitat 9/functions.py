@@ -1,7 +1,9 @@
+TEXTO_1 = "Introduce un número natural: "
+
 def validate():
-    num = int(input("Introduce un número natural: "))
+    num = int(input(TEXTO_1))
     while num < 1:
-        num = int(input("Introduce un número natural: "))
+        num = int(input(TEXTO_1))
     return num
 
 def binary(num):
